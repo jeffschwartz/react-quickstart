@@ -7,7 +7,7 @@ export class App extends React.Component {
         return (
             <div>
                 <h1>React Quckstart</h1>
-                <Info />
+                <Info webpack="Webpack" babel="Babel" />
             </div>
         );
     }
