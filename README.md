@@ -1,2 +1,5 @@
-# React QuickStart
-## Includes webpack and babel
+# React Quick Start
+## Includes:
+* Webpack
+* Babel
+* ESLint
