@@ -6,8 +6,8 @@ export class App extends React.Component {
     render () {
         return (
             <div>
-                <h1>React Quckstart</h1>
-                <Info webpack="Webpack" babel="Babel" />
+                <h1>React Quick Start</h1>
+                <Info webpack="Webpack" babel="Babel" eslint="ESLint" />
             </div>
         );
     }
