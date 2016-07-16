@@ -2,9 +2,16 @@ import React from "react";
 
 export default class Info extends React.Component {
     render () {
-        let {webpack, babel} = this.props;
+        let {webpack, babel, eslint} = this.props;
         return (
-            <h2>Includes {webpack} and {babel}</h2>
+            <div>
+                <h2>Includes:</h2>
+                <ul>
+                    <li>{webpack}</li>
+                    <li>{babel}</li>
+                    <li>{eslint}</li>
+                </ul>
+            </div>
         );
     }
 }
