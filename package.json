@@ -1,11 +1,15 @@
 {
   "name": "@jeffreyschwartz/react-quickstart",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "React Quickstart with Webpack and Babel",
+  "main": "''",
+  "keywords": ["React", "Webpack", "Babel", "JavaScript", "Starter", "Quickstart", "Guide" "Template"],
+  "author": "Jeffrey Schwartz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffschwartz/react-quickstart"
+  },
+  "license": "MIT",
   "scripts": {
     "build": "babel src -d lib",
     "webpack": "webpack",
