@@ -8,7 +8,8 @@
   "license": "ISC",
   "scripts": {
     "build": "babel src -d lib",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "start": "webpack-dev-server --inline --hot --content-base lib/"
   },
   "dependencies": {
     "babel-polyfill": "^6.9.1",
