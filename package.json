@@ -21,9 +21,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "babel src/client/app -d src/client/public",
-    "webpack": "webpack",
-    "start": "webpack-dev-server --inline --hot --content-base src/client/public/"
+    "start": "webpack && webpack-dev-server --inline --hot --content-base src/client/public/",
+    "build": "webpack"
   },
   "dependencies": {
     "babel-polyfill": "^6.9.1",
