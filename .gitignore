@@ -1,2 +1,3 @@
 node_modules
-lib/**/*.js
+src/client/public/app.bundle.js
+npm-debug.log
