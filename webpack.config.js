@@ -1,3 +1,4 @@
+var webpack = require("webpack");
 var path = require("path");
 
 var BUILD_DIR = path.resolve(__dirname, "src/client/public");
@@ -24,5 +25,13 @@ module.exports = {
     },
     resolve: {
         extensions: ["", ".js", ".jsx"]
-    }
+    },
+    // Configure webpack to import React when it is referenced
+    // in a module that doesn't explicitly import it
+    // (e.g. stateless component functions)
+    plugins: [
+        new webpack.ProvidePlugin({
+            "React": "react"
+        })
+    ]
 };

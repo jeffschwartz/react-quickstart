@@ -1,5 +1,5 @@
 module.exports = {
-    "extends": "standard",
+    "extends": ["standard", "plugin:react/recommended"],
     "plugins": [
         "standard",
         "promise",
@@ -14,7 +14,8 @@ module.exports = {
         "ecmaFeatures": {
             "jsx": true,
             "modules": true,
-            "classes": true
+            "classes": true,
+            "experimentalObjectRestSpread": true
         }
     },
     "settings": {
@@ -27,6 +28,12 @@ module.exports = {
         "semi": ["error", "always"],
         "quotes": ["error", "double"],
         "indent": ["error", 4],
-        "react/jsx-uses-vars": "error"
+        "no-unused-vars": 0,
+        "react/jsx-uses-vars": "error",
+        "eol-last": 0,
+        "no-class-assign": 0,
+        "react/prop-types": 0,
+        "react/react-in-jsx-scope": 0,
+        "react/no-danger": 0
     }
 };
