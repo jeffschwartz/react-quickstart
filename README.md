@@ -1,9 +1,11 @@
 # React Quick Start
 ## Includes:
-* Webpack
-* Babel
-* ESLint
+* React Bootstrap
+* React
 * React CSS Transition Group
 * Redux
 * Redux Form
 * Redux Thunk
+* Webpack
+* Babel
+* ESLint
