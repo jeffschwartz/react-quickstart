@@ -9,3 +9,5 @@
 * Webpack
 * Babel
 * ESLint
+## Run
+`npm start`
