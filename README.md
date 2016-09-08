@@ -9,6 +9,7 @@
 * Webpack
 * Babel
 * ESLint
+* Axios
 
 ## Run:
 `npm start`

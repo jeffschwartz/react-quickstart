@@ -20,7 +20,8 @@ export class App extends React.Component {
                         rctg="React CSS Transition Group"
                         redux="Redux"
                         reduxform="Redux Form"
-                        reduxthunk="Redux Thunk" />
+                        reduxthunk="Redux Thunk"
+                        axios="Axios" />
                 </Container>
             </div>
         );
