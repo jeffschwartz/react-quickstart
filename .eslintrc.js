@@ -7,14 +7,14 @@ module.exports = {
     ],
     "env": {
         "browser": true,
-        "node": true,
-        "es6": true
+        "node": true
     },
+    "parser": "babel-eslint",
     "parserOptions": {
+        "ecmaVersion": 5,
+        "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true,
-            "modules": true,
-            "classes": true,
             "experimentalObjectRestSpread": true
         }
     },
