@@ -2,6 +2,7 @@ import React from "react";
 import {render} from "react-dom";
 import Container from "./components/container/container";
 import AppNavbar from "./components/navbar/appnavbar";
+import PageHeader from "react-bootstrap/lib/PageHeader";
 import Info from "./components/info";
 
 export class App extends React.Component {
@@ -10,7 +11,8 @@ export class App extends React.Component {
             <div>
                 <AppNavbar brand="React Quick Start" />
                 <Container>
-                    <h1>React Quick Start</h1>
+                    <PageHeader>React Quick Start</PageHeader>
+                    <p>A ReactJS Quick Start project that supports JavaScript ES7 transpilation to ES5 through Babel, linting with ESLint, and bundling via Webpack.</p>
                     <Info
                         webpack="Webpack"
                         babel="Babel"
