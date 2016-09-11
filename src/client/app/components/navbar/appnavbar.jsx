@@ -1,22 +1,20 @@
-import React from "react";
 import Navbar from "react-bootstrap/lib/Navbar";
 import Nav from "react-bootstrap/lib/Nav";
 import NavItem from "react-bootstrap/lib/NavItem";
 import NavDropdown from "react-bootstrap/lib/NavDropdown";
 import MenuItem from "react-bootstrap/lib/MenuItem";
 
-export default function AppNavbar ({brand}) {
-    return (
-        <div>
-            <Navbar>
-                <Navbar.Header>
-                    <Navbar.Brand>
-                        <a href="#">{brand}</a>
-                    </Navbar.Brand>
-                    <Navbar.Toggle />
-                </Navbar.Header>
-                <Navbar.Collapse>
-                    {/*
+const AppNavbar = ({brand}) => (
+    <div>
+        <Navbar>
+            <Navbar.Header>
+                <Navbar.Brand>
+                    <a href="#">{brand}</a>
+                </Navbar.Brand>
+                <Navbar.Toggle />
+            </Navbar.Header>
+            <Navbar.Collapse>
+                {/*
                     <Nav>
                         <NavItem eventKey={1} href="#">Link</NavItem>
                         <NavItem eventKey={2} href="#">Link</NavItem>
@@ -33,8 +31,9 @@ export default function AppNavbar ({brand}) {
                         <NavItem eventKey={2} href="#">Link Right</NavItem>
                     </Nav>
                     */}
-                </Navbar.Collapse>
-            </Navbar>
-        </div>
-    );
-}
+            </Navbar.Collapse>
+        </Navbar>
+    </div>
+);
+
+export default AppNavbar;
